@@ -5,7 +5,7 @@ import maplotlib.pyplot as plt
 %matplotlib inline
 
 #Load Dataset
-url = "https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/Cust_Segmentation.csv"
+url = "https://raw.githubusercontent.com/ParthanOlikkal/K-Means/master/Cust_Segmentation.csv"
 cust_df = pd.read_csv(url)
 cust_df.head()
 
